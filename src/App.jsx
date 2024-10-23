@@ -1,5 +1,5 @@
 
-import { Container, Box, Typography, Grid2, Paper, Avatar,Divider, IconButton ,Card} from '@mui/material'
+import { Container, Box, Typography, Grid2, Paper, Avatar,Divider, IconButton ,Card , Button} from '@mui/material'
 import { CardHeader } from '@mui/material'
 
 function App() {
@@ -46,12 +46,14 @@ function App() {
 
            
 
-            <Grid2 size={{ xs: 12, md: 6 }}>
-            <Paper>h</Paper>
+            <Grid2 size={{ xs: 12, md: 6 }} sx={{bgcolor:'#fff', borderRadius:'12px', padding:'24px'}}>
+                <Button variant="text">Text</Button>
+                <Button variant="contained">Contained</Button>
+                <Button variant="outlined">Outlined</Button>
             </Grid2>
 
-            <Grid2 size={{ xs: 12, md: 6 }}>
-            
+            <Grid2 size={{ xs: 12, md: 6 }} sx={{bgcolor:'#fff', borderRadius:'12px', padding:'24px'}}>
+                abc
             </Grid2>
 
 
@@ -130,8 +132,11 @@ function App() {
              </Grid2>
 
 
-            <Grid2 size={{ xs: 12, md: 6 }}>
-            <Paper>h</Paper>
+            <Grid2 size={{ xs: 12, md: 6 }} sx={{borderRadius:'12px', padding:'24px', bgcolor:"white"}}>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Iusto nam sint at deleniti? Obcaecati quibusdam libero ad id.
+               Quibusdam quidem impedit totam necessitatibus quas atque voluptatum 
+               corporis quisquam. Qui, ipsam.
             </Grid2>
 
           </Grid2>
